@@ -1,6 +1,6 @@
 +++
 date = '2026-01-06T10:35:40-05:00'
-draft = true
+draft = false
 title = 'About - V0'
 featured_image = '/images/site.png'
 +++
