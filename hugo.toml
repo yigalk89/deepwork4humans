@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Deepwork4humans'
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
+[params]
+  featured_image = 'images/site.png'
+
+defaultContentLanguage = "en"
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/posts/about-v0/"
+    weight = 3
