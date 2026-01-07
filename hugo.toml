@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yigalk89.github.io/deepwork4humans/'
 languageCode = 'en-us'
 title = 'Deepwork4humans'
 
@@ -8,6 +8,9 @@ disable = false
 ignoreConfig = false
 ignoreImports = false
 path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
+
 
 [params]
   featured_image = 'images/site.png'
