@@ -1,0 +1,20 @@
+/* Custom styles to increase post width on desktop */
+@media screen and (min-width: 60em) {
+  /* Increase max-width of article container from mw8 (1024px) to 1200px */
+  article.flex-l.mw8 {
+    max-width: 1200px !important;
+  }
+  
+  /* Override w-two-thirds-l class to use full width on desktop */
+  /* This makes the content area take the full width instead of 2/3 */
+  article.flex-l .w-two-thirds-l {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  /* Hide or minimize the aside sidebar on desktop to give more space to content */
+  article.flex-l aside.w-30-l {
+    display: none;
+  }
+}
+
