@@ -2,6 +2,8 @@
 date = '2026-01-15T11:54:44-05:00'
 draft = false
 title = 'My Experimental New Daily Routine'
+featured_image = '/images/daily-schedule-post.png'
+
 +++
 
 # Intro
