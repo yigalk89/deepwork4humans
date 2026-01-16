@@ -6,7 +6,6 @@ featured_image = '/images/daily-schedule-post.png'
 
 +++
 
-# Intro
 Next week would be my first working week after 4 months of parental leave. And I plan to take advantage of having a fresh start but in a familiar place - so since I'm already pretty well versed in my team's fundamental processes and systems, I intend to try to allocate some of my energy to adopt a new work routine. This is heavily inspired by the book [`deep work` by Cal Newport](https://a.co/d/1dIy4YQ) with my own attempt to adapt it to what makes sense for me at work.  
 # Equipment I intend to use
 - A simple lined notepad - for the daily time blocks allocation.
