@@ -11,7 +11,6 @@ path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
 
-
 [params]
   featured_image = 'images/site.png'
 
@@ -33,3 +32,8 @@ defaultContentLanguage = "en"
     name = "About"
     url = "/posts/about-v0/"
     weight = 3
+
+  [[menu.main]]
+    name = "Subscribe"
+    url = "/subscribe/"
+    weight = 4

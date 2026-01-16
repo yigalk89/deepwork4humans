@@ -1,2 +1,30 @@
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+<script>
+(function() {
+  // Inject subscribe footer after post content (non-intrusive, no template changes)
+  let footerInjected = false;
+  function injectFooter() {
+    // Prevent multiple injections
+    if (footerInjected) return;
+    if (document.querySelector('.subscribe-footer-injected')) {
+      footerInjected = true;
+      return;
+    }
+    const contentDiv = document.querySelector('article .nested-copy-line-height');
+    if (contentDiv && !contentDiv.querySelector('.subscribe-footer-injected')) {
+      const footer = document.createElement('div');
+      footer.className = 'mt5 pt4 bt b--black-10 subscribe-footer-injected';
+      footer.innerHTML = '<p class="f5 lh-copy"><strong>Enjoyed this?</strong><br />I write occasionally about deep work and software.<br /><a href="/subscribe/">Subscribe by email</a> to get new posts.</p>';
+      contentDiv.appendChild(footer);
+      footerInjected = true;
+    }
+  }
+  // Run when DOM is ready, but only once
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', injectFooter, { once: true });
+  } else {
+    injectFooter();
+  }
+})();
+</script>
 
